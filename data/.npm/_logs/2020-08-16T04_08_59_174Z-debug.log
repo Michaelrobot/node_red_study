@@ -1,0 +1,1177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--no-audit',
+1 verbose cli   '--no-update-notifier',
+1 verbose cli   '--no-fund',
+1 verbose cli   '--save',
+1 verbose cli   '--save-prefix="~"',
+1 verbose cli   '--production',
+1 verbose cli   'node-red-mongodb@0.0.18' ]
+2 info using npm@6.14.6
+3 info using node@v10.22.0
+4 verbose npm-session e808fa14c973dfb4
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/node-red-mongodb 185ms
+8 http fetch GET 200 https://registry.npmjs.org/node-red-mongodb/-/node-red-mongodb-0.0.18.tgz 76ms
+9 silly pacote version manifest for node-red-mongodb@0.0.18 fetched in 292ms
+10 timing stage:loadCurrentTree Completed in 1662ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 13ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 58ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule node-red-mongodb@0.0.18 checking installable status
+18 http fetch GET 200 https://registry.npmjs.org/mongodb 107ms
+19 http fetch GET 200 https://registry.npmjs.org/mongodb/-/mongodb-2.2.36.tgz 111ms
+20 silly pacote range manifest for mongodb@^2.2.11 fetched in 251ms
+21 silly resolveWithNewModule mongodb@2.2.36 checking installable status
+22 http fetch GET 200 https://registry.npmjs.org/es6-promise 101ms
+23 http fetch GET 200 https://registry.npmjs.org/mongodb-core 526ms
+24 http fetch GET 200 https://registry.npmjs.org/readable-stream 537ms
+25 http fetch GET 200 https://registry.npmjs.org/es6-promise/-/es6-promise-3.2.1.tgz 451ms
+26 silly pacote version manifest for es6-promise@3.2.1 fetched in 716ms
+27 silly resolveWithNewModule es6-promise@3.2.1 checking installable status
+28 http fetch GET 200 https://registry.npmjs.org/mongodb-core/-/mongodb-core-2.1.20.tgz 200ms
+29 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.2.7.tgz 198ms
+30 silly pacote version manifest for mongodb-core@2.1.20 fetched in 803ms
+31 silly resolveWithNewModule mongodb-core@2.1.20 checking installable status
+32 silly pacote version manifest for readable-stream@2.2.7 fetched in 814ms
+33 silly resolveWithNewModule readable-stream@2.2.7 checking installable status
+34 http fetch GET 200 https://registry.npmjs.org/require_optional 138ms
+35 http fetch GET 200 https://registry.npmjs.org/bson 156ms
+36 http fetch GET 200 https://registry.npmjs.org/require_optional/-/require_optional-1.0.1.tgz 140ms
+37 http fetch GET 200 https://registry.npmjs.org/bson/-/bson-1.0.9.tgz 138ms
+38 silly pacote range manifest for require_optional@~1.0.0 fetched in 331ms
+39 silly resolveWithNewModule require_optional@1.0.1 checking installable status
+40 silly pacote range manifest for bson@~1.0.4 fetched in 349ms
+41 warn deprecated bson@1.0.9: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see https://bit.ly/2KcpXdo for more details
+42 silly resolveWithNewModule bson@1.0.9 checking installable status
+43 http fetch GET 200 https://registry.npmjs.org/semver 101ms
+44 http fetch GET 200 https://registry.npmjs.org/resolve-from 129ms
+45 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.1.tgz 109ms
+46 http fetch GET 200 https://registry.npmjs.org/resolve-from/-/resolve-from-2.0.0.tgz 95ms
+47 silly pacote range manifest for semver@^5.1.0 fetched in 262ms
+48 silly resolveWithNewModule semver@5.7.1 checking installable status
+49 silly pacote range manifest for resolve-from@^2.0.0 fetched in 271ms
+50 silly resolveWithNewModule resolve-from@2.0.0 checking installable status
+51 http fetch GET 200 https://registry.npmjs.org/buffer-shims 244ms
+52 http fetch GET 200 https://registry.npmjs.org/core-util-is 259ms
+53 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 272ms
+54 http fetch GET 200 https://registry.npmjs.org/string_decoder 290ms
+55 http fetch GET 200 https://registry.npmjs.org/util-deprecate 297ms
+56 http fetch GET 304 https://registry.npmjs.org/isarray 408ms (from cache)
+57 http fetch GET 200 https://registry.npmjs.org/buffer-shims/-/buffer-shims-1.0.0.tgz 235ms
+58 http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz 275ms
+59 http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 240ms
+60 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz 251ms
+61 http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 318ms
+62 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 222ms
+63 silly pacote range manifest for buffer-shims@~1.0.0 fetched in 665ms
+64 silly resolveWithNewModule buffer-shims@1.0.0 checking installable status
+65 silly pacote range manifest for process-nextick-args@~1.0.6 fetched in 685ms
+66 silly resolveWithNewModule process-nextick-args@1.0.7 checking installable status
+67 silly pacote range manifest for string_decoder@~1.0.0 fetched in 703ms
+68 silly resolveWithNewModule string_decoder@1.0.3 checking installable status
+69 silly pacote range manifest for core-util-is@~1.0.0 fetched in 714ms
+70 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+71 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 720ms
+72 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+73 silly pacote range manifest for isarray@~1.0.0 fetched in 746ms
+74 silly resolveWithNewModule isarray@1.0.0 checking installable status
+75 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 2774ms
+76 timing stage:loadIdealTree Completed in 2916ms
+77 silly currentTree node-red-project@0.0.1
+77 silly currentTree +-- accepts@1.3.7
+77 silly currentTree +-- after@0.8.2
+77 silly currentTree +-- arraybuffer.slice@0.0.7
+77 silly currentTree +-- async-limiter@1.0.1
+77 silly currentTree +-- backo2@1.0.2
+77 silly currentTree +-- base64-arraybuffer@0.1.5
+77 silly currentTree +-- base64id@2.0.0
+77 silly currentTree +-- better-assert@1.0.2
+77 silly currentTree +-- blob@0.0.5
+77 silly currentTree +-- bytes@3.0.0
+77 silly currentTree +-- callsite@1.0.0
+77 silly currentTree +-- component-bind@1.0.0
+77 silly currentTree +-- component-emitter@1.2.1
+77 silly currentTree +-- component-inherit@0.0.3
+77 silly currentTree +-- compressible@2.0.18
+77 silly currentTree +-- compression@1.7.4
+77 silly currentTree +-- cookie@0.3.1
+77 silly currentTree +-- debug@2.6.9
+77 silly currentTree +-- depd@1.1.2
+77 silly currentTree +-- destroy@1.0.4
+77 silly currentTree +-- ee-first@1.1.1
+77 silly currentTree +-- encodeurl@1.0.2
+77 silly currentTree +-- engine.io-client@3.4.3
+77 silly currentTree | +-- component-emitter@1.3.0
+77 silly currentTree | +-- debug@4.1.1
+77 silly currentTree | +-- ms@2.1.2
+77 silly currentTree | `-- ws@6.1.4
+77 silly currentTree +-- engine.io-parser@2.2.0
+77 silly currentTree +-- engine.io@3.4.2
+77 silly currentTree | +-- debug@4.1.1
+77 silly currentTree | `-- ms@2.1.2
+77 silly currentTree +-- escape-html@1.0.3
+77 silly currentTree +-- etag@1.8.1
+77 silly currentTree +-- fresh@0.5.2
+77 silly currentTree +-- gridstack@0.6.4
+77 silly currentTree +-- has-binary2@1.0.3
+77 silly currentTree +-- has-cors@1.1.0
+77 silly currentTree +-- http-errors@1.7.3
+77 silly currentTree +-- indexof@0.0.1
+77 silly currentTree +-- inherits@2.0.4
+77 silly currentTree +-- isarray@2.0.1
+77 silly currentTree +-- jquery@3.5.1
+77 silly currentTree +-- mime-db@1.44.0
+77 silly currentTree +-- mime-types@2.1.27
+77 silly currentTree +-- ms@2.0.0
+77 silly currentTree +-- negotiator@0.6.2
+77 silly currentTree +-- object-component@0.0.3
+77 silly currentTree +-- on-finished@2.3.0
+77 silly currentTree +-- on-headers@1.0.2
+77 silly currentTree +-- parseqs@0.0.5
+77 silly currentTree +-- parseuri@0.0.5
+77 silly currentTree +-- parseurl@1.3.3
+77 silly currentTree +-- range-parser@1.2.1
+77 silly currentTree +-- safe-buffer@5.1.2
+77 silly currentTree +-- setprototypeof@1.1.1
+77 silly currentTree +-- socket.io-adapter@1.1.2
+77 silly currentTree +-- socket.io-client@2.3.0
+77 silly currentTree | +-- debug@4.1.1
+77 silly currentTree | +-- ms@2.1.2
+77 silly currentTree | `-- socket.io-parser@3.3.0
+77 silly currentTree |   +-- debug@3.1.0
+77 silly currentTree |   `-- ms@2.0.0
+77 silly currentTree +-- socket.io-parser@3.4.1
+77 silly currentTree | +-- debug@4.1.1
+77 silly currentTree | `-- ms@2.1.2
+77 silly currentTree +-- socket.io@2.3.0
+77 silly currentTree | +-- debug@4.1.1
+77 silly currentTree | `-- ms@2.1.2
+77 silly currentTree +-- statuses@1.5.0
+77 silly currentTree +-- to-array@0.1.4
+77 silly currentTree +-- toidentifier@1.0.0
+77 silly currentTree +-- vary@1.1.2
+77 silly currentTree +-- ws@7.3.1
+77 silly currentTree +-- xmlhttprequest-ssl@1.5.5
+77 silly currentTree `-- yeast@0.1.2
+78 silly idealTree node-red-project@0.0.1
+78 silly idealTree +-- bson@1.0.9
+78 silly idealTree +-- buffer-shims@1.0.0
+78 silly idealTree +-- core-util-is@1.0.2
+78 silly idealTree +-- es6-promise@3.2.1
+78 silly idealTree +-- inherits@2.0.4
+78 silly idealTree +-- mongodb-core@2.1.20
+78 silly idealTree +-- mongodb@2.2.36
+78 silly idealTree +-- node-red-mongodb@0.0.18
+78 silly idealTree +-- process-nextick-args@1.0.7
+78 silly idealTree +-- readable-stream@2.2.7
+78 silly idealTree | `-- isarray@1.0.0
+78 silly idealTree +-- require_optional@1.0.1
+78 silly idealTree +-- resolve-from@2.0.0
+78 silly idealTree +-- safe-buffer@5.1.2
+78 silly idealTree +-- semver@5.7.1
+78 silly idealTree +-- string_decoder@1.0.3
+78 silly idealTree `-- util-deprecate@1.0.2
+79 silly install generateActionsToTake
+80 silly diff-trees filtering actions: includeDev false includeProd true includeOpt true
+81 timing stage:generateActionsToTake Completed in 45ms
+82 silly diffTrees action count 88
+83 silly diffTrees remove after@0.8.2
+84 silly diffTrees remove arraybuffer.slice@0.0.7
+85 silly diffTrees remove async-limiter@1.0.1
+86 silly diffTrees remove backo2@1.0.2
+87 silly diffTrees remove base64-arraybuffer@0.1.5
+88 silly diffTrees remove base64id@2.0.0
+89 silly diffTrees remove blob@0.0.5
+90 silly diffTrees add bson@1.0.9
+91 silly diffTrees add buffer-shims@1.0.0
+92 silly diffTrees remove bytes@3.0.0
+93 silly diffTrees remove callsite@1.0.0
+94 silly diffTrees remove better-assert@1.0.2
+95 silly diffTrees remove component-bind@1.0.0
+96 silly diffTrees remove component-emitter@1.2.1
+97 silly diffTrees remove component-inherit@0.0.3
+98 silly diffTrees remove cookie@0.3.1
+99 silly diffTrees add core-util-is@1.0.2
+100 silly diffTrees remove depd@1.1.2
+101 silly diffTrees remove ee-first@1.1.1
+102 silly diffTrees remove component-emitter@1.3.0
+103 silly diffTrees remove ms@2.1.2
+104 silly diffTrees remove debug@4.1.1
+105 silly diffTrees remove ws@6.1.4
+106 silly diffTrees remove ms@2.1.2
+107 silly diffTrees remove debug@4.1.1
+108 silly diffTrees add es6-promise@3.2.1
+109 silly diffTrees remove has-cors@1.1.0
+110 silly diffTrees remove indexof@0.0.1
+111 silly diffTrees remove isarray@2.0.1
+112 silly diffTrees remove has-binary2@1.0.3
+113 silly diffTrees remove engine.io-parser@2.2.0
+114 silly diffTrees remove jquery@3.5.1
+115 silly diffTrees remove mime-db@1.44.0
+116 silly diffTrees remove compressible@2.0.18
+117 silly diffTrees remove mime-types@2.1.27
+118 silly diffTrees remove ms@2.0.0
+119 silly diffTrees remove debug@2.6.9
+120 silly diffTrees remove negotiator@0.6.2
+121 silly diffTrees remove accepts@1.3.7
+122 silly diffTrees remove object-component@0.0.3
+123 silly diffTrees remove on-headers@1.0.2
+124 silly diffTrees remove parseqs@0.0.5
+125 silly diffTrees remove parseuri@0.0.5
+126 silly diffTrees add process-nextick-args@1.0.7
+127 silly diffTrees add isarray@1.0.0
+128 silly diffTrees add resolve-from@2.0.0
+129 silly diffTrees add semver@5.7.1
+130 silly diffTrees add require_optional@1.0.1
+131 silly diffTrees add mongodb-core@2.1.20
+132 silly diffTrees remove setprototypeof@1.1.1
+133 silly diffTrees remove socket.io-adapter@1.1.2
+134 silly diffTrees remove ms@2.1.2
+135 silly diffTrees remove debug@4.1.1
+136 silly diffTrees remove ms@2.0.0
+137 silly diffTrees remove debug@3.1.0
+138 silly diffTrees remove socket.io-parser@3.3.0
+139 silly diffTrees remove ms@2.1.2
+140 silly diffTrees remove debug@4.1.1
+141 silly diffTrees remove socket.io-parser@3.4.1
+142 silly diffTrees remove ms@2.1.2
+143 silly diffTrees remove debug@4.1.1
+144 silly diffTrees remove statuses@1.5.0
+145 silly diffTrees add string_decoder@1.0.3
+146 silly diffTrees remove to-array@0.1.4
+147 silly diffTrees remove toidentifier@1.0.0
+148 silly diffTrees add util-deprecate@1.0.2
+149 silly diffTrees add readable-stream@2.2.7
+150 silly diffTrees remove vary@1.1.2
+151 silly diffTrees remove ws@7.3.1
+152 silly diffTrees remove engine.io@3.4.2
+153 silly diffTrees remove xmlhttprequest-ssl@1.5.5
+154 silly diffTrees remove yeast@0.1.2
+155 silly diffTrees remove engine.io-client@3.4.3
+156 silly diffTrees remove socket.io-client@2.3.0
+157 silly diffTrees remove compression@1.7.4
+158 silly diffTrees remove destroy@1.0.4
+159 silly diffTrees remove encodeurl@1.0.2
+160 silly diffTrees remove escape-html@1.0.3
+161 silly diffTrees remove etag@1.8.1
+162 silly diffTrees remove fresh@0.5.2
+163 silly diffTrees remove gridstack@0.6.4
+164 silly diffTrees remove http-errors@1.7.3
+165 silly diffTrees add mongodb@2.2.36
+166 silly diffTrees add node-red-mongodb@0.0.18
+167 silly diffTrees remove on-finished@2.3.0
+168 silly diffTrees remove parseurl@1.3.3
+169 silly diffTrees remove range-parser@1.2.1
+170 silly diffTrees remove socket.io@2.3.0
+171 silly decomposeActions action count 266
+172 silly decomposeActions unbuild after@0.8.2
+173 silly decomposeActions remove after@0.8.2
+174 silly decomposeActions unbuild arraybuffer.slice@0.0.7
+175 silly decomposeActions remove arraybuffer.slice@0.0.7
+176 silly decomposeActions unbuild async-limiter@1.0.1
+177 silly decomposeActions remove async-limiter@1.0.1
+178 silly decomposeActions unbuild backo2@1.0.2
+179 silly decomposeActions remove backo2@1.0.2
+180 silly decomposeActions unbuild base64-arraybuffer@0.1.5
+181 silly decomposeActions remove base64-arraybuffer@0.1.5
+182 silly decomposeActions unbuild base64id@2.0.0
+183 silly decomposeActions remove base64id@2.0.0
+184 silly decomposeActions unbuild blob@0.0.5
+185 silly decomposeActions remove blob@0.0.5
+186 silly decomposeActions fetch bson@1.0.9
+187 silly decomposeActions extract bson@1.0.9
+188 silly decomposeActions preinstall bson@1.0.9
+189 silly decomposeActions build bson@1.0.9
+190 silly decomposeActions install bson@1.0.9
+191 silly decomposeActions postinstall bson@1.0.9
+192 silly decomposeActions finalize bson@1.0.9
+193 silly decomposeActions refresh-package-json bson@1.0.9
+194 silly decomposeActions fetch buffer-shims@1.0.0
+195 silly decomposeActions extract buffer-shims@1.0.0
+196 silly decomposeActions preinstall buffer-shims@1.0.0
+197 silly decomposeActions build buffer-shims@1.0.0
+198 silly decomposeActions install buffer-shims@1.0.0
+199 silly decomposeActions postinstall buffer-shims@1.0.0
+200 silly decomposeActions finalize buffer-shims@1.0.0
+201 silly decomposeActions refresh-package-json buffer-shims@1.0.0
+202 silly decomposeActions unbuild bytes@3.0.0
+203 silly decomposeActions remove bytes@3.0.0
+204 silly decomposeActions unbuild callsite@1.0.0
+205 silly decomposeActions remove callsite@1.0.0
+206 silly decomposeActions unbuild better-assert@1.0.2
+207 silly decomposeActions remove better-assert@1.0.2
+208 silly decomposeActions unbuild component-bind@1.0.0
+209 silly decomposeActions remove component-bind@1.0.0
+210 silly decomposeActions unbuild component-emitter@1.2.1
+211 silly decomposeActions remove component-emitter@1.2.1
+212 silly decomposeActions unbuild component-inherit@0.0.3
+213 silly decomposeActions remove component-inherit@0.0.3
+214 silly decomposeActions unbuild cookie@0.3.1
+215 silly decomposeActions remove cookie@0.3.1
+216 silly decomposeActions fetch core-util-is@1.0.2
+217 silly decomposeActions extract core-util-is@1.0.2
+218 silly decomposeActions preinstall core-util-is@1.0.2
+219 silly decomposeActions build core-util-is@1.0.2
+220 silly decomposeActions install core-util-is@1.0.2
+221 silly decomposeActions postinstall core-util-is@1.0.2
+222 silly decomposeActions finalize core-util-is@1.0.2
+223 silly decomposeActions refresh-package-json core-util-is@1.0.2
+224 silly decomposeActions unbuild depd@1.1.2
+225 silly decomposeActions remove depd@1.1.2
+226 silly decomposeActions unbuild ee-first@1.1.1
+227 silly decomposeActions remove ee-first@1.1.1
+228 silly decomposeActions unbuild component-emitter@1.3.0
+229 silly decomposeActions remove component-emitter@1.3.0
+230 silly decomposeActions unbuild ms@2.1.2
+231 silly decomposeActions remove ms@2.1.2
+232 silly decomposeActions unbuild debug@4.1.1
+233 silly decomposeActions remove debug@4.1.1
+234 silly decomposeActions unbuild ws@6.1.4
+235 silly decomposeActions remove ws@6.1.4
+236 silly decomposeActions unbuild ms@2.1.2
+237 silly decomposeActions remove ms@2.1.2
+238 silly decomposeActions unbuild debug@4.1.1
+239 silly decomposeActions remove debug@4.1.1
+240 silly decomposeActions fetch es6-promise@3.2.1
+241 silly decomposeActions extract es6-promise@3.2.1
+242 silly decomposeActions preinstall es6-promise@3.2.1
+243 silly decomposeActions build es6-promise@3.2.1
+244 silly decomposeActions install es6-promise@3.2.1
+245 silly decomposeActions postinstall es6-promise@3.2.1
+246 silly decomposeActions finalize es6-promise@3.2.1
+247 silly decomposeActions refresh-package-json es6-promise@3.2.1
+248 silly decomposeActions unbuild has-cors@1.1.0
+249 silly decomposeActions remove has-cors@1.1.0
+250 silly decomposeActions unbuild indexof@0.0.1
+251 silly decomposeActions remove indexof@0.0.1
+252 silly decomposeActions unbuild isarray@2.0.1
+253 silly decomposeActions remove isarray@2.0.1
+254 silly decomposeActions unbuild has-binary2@1.0.3
+255 silly decomposeActions remove has-binary2@1.0.3
+256 silly decomposeActions unbuild engine.io-parser@2.2.0
+257 silly decomposeActions remove engine.io-parser@2.2.0
+258 silly decomposeActions unbuild jquery@3.5.1
+259 silly decomposeActions remove jquery@3.5.1
+260 silly decomposeActions unbuild mime-db@1.44.0
+261 silly decomposeActions remove mime-db@1.44.0
+262 silly decomposeActions unbuild compressible@2.0.18
+263 silly decomposeActions remove compressible@2.0.18
+264 silly decomposeActions unbuild mime-types@2.1.27
+265 silly decomposeActions remove mime-types@2.1.27
+266 silly decomposeActions unbuild ms@2.0.0
+267 silly decomposeActions remove ms@2.0.0
+268 silly decomposeActions unbuild debug@2.6.9
+269 silly decomposeActions remove debug@2.6.9
+270 silly decomposeActions unbuild negotiator@0.6.2
+271 silly decomposeActions remove negotiator@0.6.2
+272 silly decomposeActions unbuild accepts@1.3.7
+273 silly decomposeActions remove accepts@1.3.7
+274 silly decomposeActions unbuild object-component@0.0.3
+275 silly decomposeActions remove object-component@0.0.3
+276 silly decomposeActions unbuild on-headers@1.0.2
+277 silly decomposeActions remove on-headers@1.0.2
+278 silly decomposeActions unbuild parseqs@0.0.5
+279 silly decomposeActions remove parseqs@0.0.5
+280 silly decomposeActions unbuild parseuri@0.0.5
+281 silly decomposeActions remove parseuri@0.0.5
+282 silly decomposeActions fetch process-nextick-args@1.0.7
+283 silly decomposeActions extract process-nextick-args@1.0.7
+284 silly decomposeActions preinstall process-nextick-args@1.0.7
+285 silly decomposeActions build process-nextick-args@1.0.7
+286 silly decomposeActions install process-nextick-args@1.0.7
+287 silly decomposeActions postinstall process-nextick-args@1.0.7
+288 silly decomposeActions finalize process-nextick-args@1.0.7
+289 silly decomposeActions refresh-package-json process-nextick-args@1.0.7
+290 silly decomposeActions fetch isarray@1.0.0
+291 silly decomposeActions extract isarray@1.0.0
+292 silly decomposeActions preinstall isarray@1.0.0
+293 silly decomposeActions build isarray@1.0.0
+294 silly decomposeActions install isarray@1.0.0
+295 silly decomposeActions postinstall isarray@1.0.0
+296 silly decomposeActions finalize isarray@1.0.0
+297 silly decomposeActions refresh-package-json isarray@1.0.0
+298 silly decomposeActions fetch resolve-from@2.0.0
+299 silly decomposeActions extract resolve-from@2.0.0
+300 silly decomposeActions preinstall resolve-from@2.0.0
+301 silly decomposeActions build resolve-from@2.0.0
+302 silly decomposeActions install resolve-from@2.0.0
+303 silly decomposeActions postinstall resolve-from@2.0.0
+304 silly decomposeActions finalize resolve-from@2.0.0
+305 silly decomposeActions refresh-package-json resolve-from@2.0.0
+306 silly decomposeActions fetch semver@5.7.1
+307 silly decomposeActions extract semver@5.7.1
+308 silly decomposeActions preinstall semver@5.7.1
+309 silly decomposeActions build semver@5.7.1
+310 silly decomposeActions install semver@5.7.1
+311 silly decomposeActions postinstall semver@5.7.1
+312 silly decomposeActions finalize semver@5.7.1
+313 silly decomposeActions refresh-package-json semver@5.7.1
+314 silly decomposeActions fetch require_optional@1.0.1
+315 silly decomposeActions extract require_optional@1.0.1
+316 silly decomposeActions preinstall require_optional@1.0.1
+317 silly decomposeActions build require_optional@1.0.1
+318 silly decomposeActions install require_optional@1.0.1
+319 silly decomposeActions postinstall require_optional@1.0.1
+320 silly decomposeActions finalize require_optional@1.0.1
+321 silly decomposeActions refresh-package-json require_optional@1.0.1
+322 silly decomposeActions fetch mongodb-core@2.1.20
+323 silly decomposeActions extract mongodb-core@2.1.20
+324 silly decomposeActions preinstall mongodb-core@2.1.20
+325 silly decomposeActions build mongodb-core@2.1.20
+326 silly decomposeActions install mongodb-core@2.1.20
+327 silly decomposeActions postinstall mongodb-core@2.1.20
+328 silly decomposeActions finalize mongodb-core@2.1.20
+329 silly decomposeActions refresh-package-json mongodb-core@2.1.20
+330 silly decomposeActions unbuild setprototypeof@1.1.1
+331 silly decomposeActions remove setprototypeof@1.1.1
+332 silly decomposeActions unbuild socket.io-adapter@1.1.2
+333 silly decomposeActions remove socket.io-adapter@1.1.2
+334 silly decomposeActions unbuild ms@2.1.2
+335 silly decomposeActions remove ms@2.1.2
+336 silly decomposeActions unbuild debug@4.1.1
+337 silly decomposeActions remove debug@4.1.1
+338 silly decomposeActions unbuild ms@2.0.0
+339 silly decomposeActions remove ms@2.0.0
+340 silly decomposeActions unbuild debug@3.1.0
+341 silly decomposeActions remove debug@3.1.0
+342 silly decomposeActions unbuild socket.io-parser@3.3.0
+343 silly decomposeActions remove socket.io-parser@3.3.0
+344 silly decomposeActions unbuild ms@2.1.2
+345 silly decomposeActions remove ms@2.1.2
+346 silly decomposeActions unbuild debug@4.1.1
+347 silly decomposeActions remove debug@4.1.1
+348 silly decomposeActions unbuild socket.io-parser@3.4.1
+349 silly decomposeActions remove socket.io-parser@3.4.1
+350 silly decomposeActions unbuild ms@2.1.2
+351 silly decomposeActions remove ms@2.1.2
+352 silly decomposeActions unbuild debug@4.1.1
+353 silly decomposeActions remove debug@4.1.1
+354 silly decomposeActions unbuild statuses@1.5.0
+355 silly decomposeActions remove statuses@1.5.0
+356 silly decomposeActions fetch string_decoder@1.0.3
+357 silly decomposeActions extract string_decoder@1.0.3
+358 silly decomposeActions preinstall string_decoder@1.0.3
+359 silly decomposeActions build string_decoder@1.0.3
+360 silly decomposeActions install string_decoder@1.0.3
+361 silly decomposeActions postinstall string_decoder@1.0.3
+362 silly decomposeActions finalize string_decoder@1.0.3
+363 silly decomposeActions refresh-package-json string_decoder@1.0.3
+364 silly decomposeActions unbuild to-array@0.1.4
+365 silly decomposeActions remove to-array@0.1.4
+366 silly decomposeActions unbuild toidentifier@1.0.0
+367 silly decomposeActions remove toidentifier@1.0.0
+368 silly decomposeActions fetch util-deprecate@1.0.2
+369 silly decomposeActions extract util-deprecate@1.0.2
+370 silly decomposeActions preinstall util-deprecate@1.0.2
+371 silly decomposeActions build util-deprecate@1.0.2
+372 silly decomposeActions install util-deprecate@1.0.2
+373 silly decomposeActions postinstall util-deprecate@1.0.2
+374 silly decomposeActions finalize util-deprecate@1.0.2
+375 silly decomposeActions refresh-package-json util-deprecate@1.0.2
+376 silly decomposeActions fetch readable-stream@2.2.7
+377 silly decomposeActions extract readable-stream@2.2.7
+378 silly decomposeActions preinstall readable-stream@2.2.7
+379 silly decomposeActions build readable-stream@2.2.7
+380 silly decomposeActions install readable-stream@2.2.7
+381 silly decomposeActions postinstall readable-stream@2.2.7
+382 silly decomposeActions finalize readable-stream@2.2.7
+383 silly decomposeActions refresh-package-json readable-stream@2.2.7
+384 silly decomposeActions unbuild vary@1.1.2
+385 silly decomposeActions remove vary@1.1.2
+386 silly decomposeActions unbuild ws@7.3.1
+387 silly decomposeActions remove ws@7.3.1
+388 silly decomposeActions unbuild engine.io@3.4.2
+389 silly decomposeActions remove engine.io@3.4.2
+390 silly decomposeActions unbuild xmlhttprequest-ssl@1.5.5
+391 silly decomposeActions remove xmlhttprequest-ssl@1.5.5
+392 silly decomposeActions unbuild yeast@0.1.2
+393 silly decomposeActions remove yeast@0.1.2
+394 silly decomposeActions unbuild engine.io-client@3.4.3
+395 silly decomposeActions remove engine.io-client@3.4.3
+396 silly decomposeActions unbuild socket.io-client@2.3.0
+397 silly decomposeActions remove socket.io-client@2.3.0
+398 silly decomposeActions unbuild compression@1.7.4
+399 silly decomposeActions remove compression@1.7.4
+400 silly decomposeActions unbuild destroy@1.0.4
+401 silly decomposeActions remove destroy@1.0.4
+402 silly decomposeActions unbuild encodeurl@1.0.2
+403 silly decomposeActions remove encodeurl@1.0.2
+404 silly decomposeActions unbuild escape-html@1.0.3
+405 silly decomposeActions remove escape-html@1.0.3
+406 silly decomposeActions unbuild etag@1.8.1
+407 silly decomposeActions remove etag@1.8.1
+408 silly decomposeActions unbuild fresh@0.5.2
+409 silly decomposeActions remove fresh@0.5.2
+410 silly decomposeActions unbuild gridstack@0.6.4
+411 silly decomposeActions remove gridstack@0.6.4
+412 silly decomposeActions unbuild http-errors@1.7.3
+413 silly decomposeActions remove http-errors@1.7.3
+414 silly decomposeActions fetch mongodb@2.2.36
+415 silly decomposeActions extract mongodb@2.2.36
+416 silly decomposeActions preinstall mongodb@2.2.36
+417 silly decomposeActions build mongodb@2.2.36
+418 silly decomposeActions install mongodb@2.2.36
+419 silly decomposeActions postinstall mongodb@2.2.36
+420 silly decomposeActions finalize mongodb@2.2.36
+421 silly decomposeActions refresh-package-json mongodb@2.2.36
+422 silly decomposeActions fetch node-red-mongodb@0.0.18
+423 silly decomposeActions extract node-red-mongodb@0.0.18
+424 silly decomposeActions preinstall node-red-mongodb@0.0.18
+425 silly decomposeActions build node-red-mongodb@0.0.18
+426 silly decomposeActions install node-red-mongodb@0.0.18
+427 silly decomposeActions postinstall node-red-mongodb@0.0.18
+428 silly decomposeActions finalize node-red-mongodb@0.0.18
+429 silly decomposeActions refresh-package-json node-red-mongodb@0.0.18
+430 silly decomposeActions unbuild on-finished@2.3.0
+431 silly decomposeActions remove on-finished@2.3.0
+432 silly decomposeActions unbuild parseurl@1.3.3
+433 silly decomposeActions remove parseurl@1.3.3
+434 silly decomposeActions unbuild range-parser@1.2.1
+435 silly decomposeActions remove range-parser@1.2.1
+436 silly decomposeActions unbuild socket.io@2.3.0
+437 silly decomposeActions remove socket.io@2.3.0
+438 silly install executeActions
+439 silly doSerial global-install 266
+440 verbose correctMkdir /data/.npm/_locks correctMkdir not in flight; initializing
+441 verbose lock using /data/.npm/_locks/staging-accc372ed0ccb0d8.lock for /data/node_modules/.staging
+442 silly doParallel extract 15
+443 silly extract bson@1.0.9
+444 silly extract buffer-shims@1.0.0
+445 silly extract core-util-is@1.0.2
+446 silly extract es6-promise@3.2.1
+447 silly extract process-nextick-args@1.0.7
+448 silly extract isarray@1.0.0
+449 silly extract resolve-from@2.0.0
+450 silly extract semver@5.7.1
+451 silly extract require_optional@1.0.1
+452 silly extract mongodb-core@2.1.20
+453 silly extract string_decoder@1.0.3
+454 silly extract util-deprecate@1.0.2
+455 silly extract readable-stream@2.2.7
+456 silly extract mongodb@2.2.36
+457 silly extract node-red-mongodb@0.0.18
+458 silly tarball trying bson@~1.0.4 by hash: sha512-IQX9/h7WdMBIW/q/++tGd+emQr0XMdeZ6icnT/74Xk9fnabWn+gZgpE+9V+gujL3hhJOoNrnDVY7tWdzc7NUTg==
+459 silly tarball trying buffer-shims@~1.0.0 by hash: sha1-mXjOMXOIxkmth5MCjDR37wRKi1E=
+460 silly tarball trying core-util-is@~1.0.0 by hash: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+461 silly tarball trying es6-promise@3.2.1 by hash: sha1-7FYjOGgDKQkgcXDDlEjiREndH8Q=
+462 silly tarball trying process-nextick-args@~1.0.6 by hash: sha1-FQ4gt1ZZCtP5EJPyWk8q2L/zC6M=
+463 silly tarball trying isarray@~1.0.0 by hash: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+464 silly tarball trying resolve-from@^2.0.0 by hash: sha1-lICrIOlP+h2egKgEx+oUdhGWa1c=
+465 silly tarball trying semver@^5.1.0 by hash: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+466 silly tarball trying mongodb-core@2.1.20 by hash: sha512-IN57CX5/Q1bhDq6ShAR6gIv4koFsZP7L8WOK1S0lR0pVDQaScffSMV5jxubLsmZ7J+UdqmykKw4r9hG3XQEGgQ==
+467 silly tarball trying require_optional@~1.0.0 by hash: sha512-qhM/y57enGWHAe3v/NcwML6a3/vfESLe/sGM2dII+gEO0BpKRUkWZow/tyloNqJyN6kXSl3RyyM8Ll5D/sJP8g==
+468 silly tarball trying string_decoder@~1.0.0 by hash: sha512-4AH6Z5fzNNBcH+6XDMfA/BTt87skxqJlO0lAh3Dker5zThcAxG6mKz+iGu308UKoPPQ8Dcqx/4JhujzltRa+hQ==
+469 silly tarball trying util-deprecate@~1.0.1 by hash: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+470 silly tarball trying readable-stream@2.2.7 by hash: sha1-BwV6y+JGeyIELTb5jFrVBwVOlbE=
+471 silly tarball trying mongodb@^2.2.11 by hash: sha512-P2SBLQ8Z0PVx71ngoXwo12+FiSfbNfGOClAao03/bant5DgLNkOPAck5IaJcEk4gKlQhDEURzfR3xuBG1/B+IA==
+472 silly tarball trying node-red-mongodb@0.0.18 by hash: sha512-65QlSGPab4RMIltPzh950szjv4TJ7vAvasXi0il3GRE2o/dubhBCADUki6nNofY8y98SaqbPV9CL+usToH4A8A==
+473 silly extract buffer-shims@~1.0.0 extracted to /data/node_modules/.staging/buffer-shims-f8790261 (922ms)
+474 silly extract resolve-from@^2.0.0 extracted to /data/node_modules/.staging/resolve-from-db5c5829 (955ms)
+475 silly extract process-nextick-args@~1.0.6 extracted to /data/node_modules/.staging/process-nextick-args-daa46cc0 (1090ms)
+476 silly extract util-deprecate@~1.0.1 extracted to /data/node_modules/.staging/util-deprecate-881c81f5 (1095ms)
+477 silly extract isarray@~1.0.0 extracted to /data/node_modules/.staging/isarray-640b28e2 (1190ms)
+478 silly extract string_decoder@~1.0.0 extracted to /data/node_modules/.staging/string_decoder-71738648 (1228ms)
+479 silly extract core-util-is@~1.0.0 extracted to /data/node_modules/.staging/core-util-is-8d68de65 (1313ms)
+480 silly extract semver@^5.1.0 extracted to /data/node_modules/.staging/semver-78f1b1cd (1437ms)
+481 silly extract node-red-mongodb@0.0.18 extracted to /data/node_modules/.staging/node-red-mongodb-ad3f869a (1504ms)
+482 silly extract require_optional@~1.0.0 extracted to /data/node_modules/.staging/require_optional-d0c18606 (1591ms)
+483 silly extract es6-promise@3.2.1 extracted to /data/node_modules/.staging/es6-promise-f99bc728 (2405ms)
+484 silly extract readable-stream@2.2.7 extracted to /data/node_modules/.staging/readable-stream-b7037dff (2544ms)
+485 silly extract bson@~1.0.4 extracted to /data/node_modules/.staging/bson-c97bb738 (3802ms)
+486 silly extract mongodb@^2.2.11 extracted to /data/node_modules/.staging/mongodb-02d89db9 (4068ms)
+487 silly extract mongodb-core@2.1.20 extracted to /data/node_modules/.staging/mongodb-core-f946cf75 (4180ms)
+488 timing action:extract Completed in 4191ms
+489 silly doReverseSerial unbuild 266
+490 silly unbuild socket.io@2.3.0
+491 info lifecycle socket.io@2.3.0~preuninstall: socket.io@2.3.0
+492 info lifecycle socket.io@2.3.0~uninstall: socket.io@2.3.0
+493 verbose unbuild rmStuff socket.io@2.3.0 from /data/node_modules
+494 info lifecycle socket.io@2.3.0~postuninstall: socket.io@2.3.0
+495 silly unbuild range-parser@1.2.1
+496 info lifecycle range-parser@1.2.1~preuninstall: range-parser@1.2.1
+497 info lifecycle range-parser@1.2.1~uninstall: range-parser@1.2.1
+498 verbose unbuild rmStuff range-parser@1.2.1 from /data/node_modules
+499 info lifecycle range-parser@1.2.1~postuninstall: range-parser@1.2.1
+500 silly unbuild parseurl@1.3.3
+501 info lifecycle parseurl@1.3.3~preuninstall: parseurl@1.3.3
+502 info lifecycle parseurl@1.3.3~uninstall: parseurl@1.3.3
+503 verbose unbuild rmStuff parseurl@1.3.3 from /data/node_modules
+504 info lifecycle parseurl@1.3.3~postuninstall: parseurl@1.3.3
+505 silly unbuild on-finished@2.3.0
+506 info lifecycle on-finished@2.3.0~preuninstall: on-finished@2.3.0
+507 info lifecycle on-finished@2.3.0~uninstall: on-finished@2.3.0
+508 verbose unbuild rmStuff on-finished@2.3.0 from /data/node_modules
+509 info lifecycle on-finished@2.3.0~postuninstall: on-finished@2.3.0
+510 silly unbuild http-errors@1.7.3
+511 info lifecycle http-errors@1.7.3~preuninstall: http-errors@1.7.3
+512 info lifecycle http-errors@1.7.3~uninstall: http-errors@1.7.3
+513 verbose unbuild rmStuff http-errors@1.7.3 from /data/node_modules
+514 info lifecycle http-errors@1.7.3~postuninstall: http-errors@1.7.3
+515 silly unbuild gridstack@0.6.4
+516 info lifecycle gridstack@0.6.4~preuninstall: gridstack@0.6.4
+517 info lifecycle gridstack@0.6.4~uninstall: gridstack@0.6.4
+518 verbose unbuild rmStuff gridstack@0.6.4 from /data/node_modules
+519 info lifecycle gridstack@0.6.4~postuninstall: gridstack@0.6.4
+520 silly unbuild fresh@0.5.2
+521 info lifecycle fresh@0.5.2~preuninstall: fresh@0.5.2
+522 info lifecycle fresh@0.5.2~uninstall: fresh@0.5.2
+523 verbose unbuild rmStuff fresh@0.5.2 from /data/node_modules
+524 info lifecycle fresh@0.5.2~postuninstall: fresh@0.5.2
+525 silly unbuild etag@1.8.1
+526 info lifecycle etag@1.8.1~preuninstall: etag@1.8.1
+527 info lifecycle etag@1.8.1~uninstall: etag@1.8.1
+528 verbose unbuild rmStuff etag@1.8.1 from /data/node_modules
+529 info lifecycle etag@1.8.1~postuninstall: etag@1.8.1
+530 silly unbuild escape-html@1.0.3
+531 info lifecycle escape-html@1.0.3~preuninstall: escape-html@1.0.3
+532 info lifecycle escape-html@1.0.3~uninstall: escape-html@1.0.3
+533 verbose unbuild rmStuff escape-html@1.0.3 from /data/node_modules
+534 info lifecycle escape-html@1.0.3~postuninstall: escape-html@1.0.3
+535 silly unbuild encodeurl@1.0.2
+536 info lifecycle encodeurl@1.0.2~preuninstall: encodeurl@1.0.2
+537 info lifecycle encodeurl@1.0.2~uninstall: encodeurl@1.0.2
+538 verbose unbuild rmStuff encodeurl@1.0.2 from /data/node_modules
+539 info lifecycle encodeurl@1.0.2~postuninstall: encodeurl@1.0.2
+540 silly unbuild destroy@1.0.4
+541 info lifecycle destroy@1.0.4~preuninstall: destroy@1.0.4
+542 info lifecycle destroy@1.0.4~uninstall: destroy@1.0.4
+543 verbose unbuild rmStuff destroy@1.0.4 from /data/node_modules
+544 info lifecycle destroy@1.0.4~postuninstall: destroy@1.0.4
+545 silly unbuild compression@1.7.4
+546 info lifecycle compression@1.7.4~preuninstall: compression@1.7.4
+547 info lifecycle compression@1.7.4~uninstall: compression@1.7.4
+548 verbose unbuild rmStuff compression@1.7.4 from /data/node_modules
+549 info lifecycle compression@1.7.4~postuninstall: compression@1.7.4
+550 silly unbuild socket.io-client@2.3.0
+551 info lifecycle socket.io-client@2.3.0~preuninstall: socket.io-client@2.3.0
+552 info lifecycle socket.io-client@2.3.0~uninstall: socket.io-client@2.3.0
+553 verbose unbuild rmStuff socket.io-client@2.3.0 from /data/node_modules
+554 info lifecycle socket.io-client@2.3.0~postuninstall: socket.io-client@2.3.0
+555 silly unbuild engine.io-client@3.4.3
+556 info lifecycle engine.io-client@3.4.3~preuninstall: engine.io-client@3.4.3
+557 info lifecycle engine.io-client@3.4.3~uninstall: engine.io-client@3.4.3
+558 verbose unbuild rmStuff engine.io-client@3.4.3 from /data/node_modules
+559 info lifecycle engine.io-client@3.4.3~postuninstall: engine.io-client@3.4.3
+560 silly unbuild yeast@0.1.2
+561 info lifecycle yeast@0.1.2~preuninstall: yeast@0.1.2
+562 info lifecycle yeast@0.1.2~uninstall: yeast@0.1.2
+563 verbose unbuild rmStuff yeast@0.1.2 from /data/node_modules
+564 info lifecycle yeast@0.1.2~postuninstall: yeast@0.1.2
+565 silly unbuild xmlhttprequest-ssl@1.5.5
+566 info lifecycle xmlhttprequest-ssl@1.5.5~preuninstall: xmlhttprequest-ssl@1.5.5
+567 info lifecycle xmlhttprequest-ssl@1.5.5~uninstall: xmlhttprequest-ssl@1.5.5
+568 verbose unbuild rmStuff xmlhttprequest-ssl@1.5.5 from /data/node_modules
+569 info lifecycle xmlhttprequest-ssl@1.5.5~postuninstall: xmlhttprequest-ssl@1.5.5
+570 silly unbuild engine.io@3.4.2
+571 info lifecycle engine.io@3.4.2~preuninstall: engine.io@3.4.2
+572 info lifecycle engine.io@3.4.2~uninstall: engine.io@3.4.2
+573 verbose unbuild rmStuff engine.io@3.4.2 from /data/node_modules
+574 info lifecycle engine.io@3.4.2~postuninstall: engine.io@3.4.2
+575 silly unbuild ws@7.3.1
+576 info lifecycle ws@7.3.1~preuninstall: ws@7.3.1
+577 info lifecycle ws@7.3.1~uninstall: ws@7.3.1
+578 verbose unbuild rmStuff ws@7.3.1 from /data/node_modules
+579 info lifecycle ws@7.3.1~postuninstall: ws@7.3.1
+580 silly unbuild vary@1.1.2
+581 info lifecycle vary@1.1.2~preuninstall: vary@1.1.2
+582 info lifecycle vary@1.1.2~uninstall: vary@1.1.2
+583 verbose unbuild rmStuff vary@1.1.2 from /data/node_modules
+584 info lifecycle vary@1.1.2~postuninstall: vary@1.1.2
+585 silly unbuild toidentifier@1.0.0
+586 info lifecycle toidentifier@1.0.0~preuninstall: toidentifier@1.0.0
+587 info lifecycle toidentifier@1.0.0~uninstall: toidentifier@1.0.0
+588 verbose unbuild rmStuff toidentifier@1.0.0 from /data/node_modules
+589 info lifecycle toidentifier@1.0.0~postuninstall: toidentifier@1.0.0
+590 silly unbuild to-array@0.1.4
+591 info lifecycle to-array@0.1.4~preuninstall: to-array@0.1.4
+592 info lifecycle to-array@0.1.4~uninstall: to-array@0.1.4
+593 verbose unbuild rmStuff to-array@0.1.4 from /data/node_modules
+594 info lifecycle to-array@0.1.4~postuninstall: to-array@0.1.4
+595 silly unbuild statuses@1.5.0
+596 info lifecycle statuses@1.5.0~preuninstall: statuses@1.5.0
+597 info lifecycle statuses@1.5.0~uninstall: statuses@1.5.0
+598 verbose unbuild rmStuff statuses@1.5.0 from /data/node_modules
+599 info lifecycle statuses@1.5.0~postuninstall: statuses@1.5.0
+600 silly unbuild debug@4.1.1
+601 info lifecycle debug@4.1.1~preuninstall: debug@4.1.1
+602 info lifecycle debug@4.1.1~uninstall: debug@4.1.1
+603 verbose unbuild rmStuff debug@4.1.1 from /data/node_modules
+604 verbose unbuild rmStuff in /data/node_modules/socket.io/node_modules
+605 info lifecycle debug@4.1.1~postuninstall: debug@4.1.1
+606 silly unbuild ms@2.1.2
+607 info lifecycle ms@2.1.2~preuninstall: ms@2.1.2
+608 info lifecycle ms@2.1.2~uninstall: ms@2.1.2
+609 verbose unbuild rmStuff ms@2.1.2 from /data/node_modules
+610 verbose unbuild rmStuff in /data/node_modules/socket.io/node_modules
+611 info lifecycle ms@2.1.2~postuninstall: ms@2.1.2
+612 silly unbuild socket.io-parser@3.4.1
+613 info lifecycle socket.io-parser@3.4.1~preuninstall: socket.io-parser@3.4.1
+614 info lifecycle socket.io-parser@3.4.1~uninstall: socket.io-parser@3.4.1
+615 verbose unbuild rmStuff socket.io-parser@3.4.1 from /data/node_modules
+616 info lifecycle socket.io-parser@3.4.1~postuninstall: socket.io-parser@3.4.1
+617 silly unbuild debug@4.1.1
+618 info lifecycle debug@4.1.1~preuninstall: debug@4.1.1
+619 info lifecycle debug@4.1.1~uninstall: debug@4.1.1
+620 verbose unbuild rmStuff debug@4.1.1 from /data/node_modules
+621 verbose unbuild rmStuff in /data/node_modules/socket.io-parser/node_modules
+622 info lifecycle debug@4.1.1~postuninstall: debug@4.1.1
+623 silly unbuild ms@2.1.2
+624 info lifecycle ms@2.1.2~preuninstall: ms@2.1.2
+625 info lifecycle ms@2.1.2~uninstall: ms@2.1.2
+626 verbose unbuild rmStuff ms@2.1.2 from /data/node_modules
+627 verbose unbuild rmStuff in /data/node_modules/socket.io-parser/node_modules
+628 info lifecycle ms@2.1.2~postuninstall: ms@2.1.2
+629 silly unbuild socket.io-parser@3.3.0
+630 info lifecycle socket.io-parser@3.3.0~preuninstall: socket.io-parser@3.3.0
+631 info lifecycle socket.io-parser@3.3.0~uninstall: socket.io-parser@3.3.0
+632 verbose unbuild rmStuff socket.io-parser@3.3.0 from /data/node_modules
+633 verbose unbuild rmStuff in /data/node_modules/socket.io-client/node_modules
+634 info lifecycle socket.io-parser@3.3.0~postuninstall: socket.io-parser@3.3.0
+635 silly unbuild debug@3.1.0
+636 info lifecycle debug@3.1.0~preuninstall: debug@3.1.0
+637 info lifecycle debug@3.1.0~uninstall: debug@3.1.0
+638 verbose unbuild rmStuff debug@3.1.0 from /data/node_modules
+639 verbose unbuild rmStuff in /data/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules
+640 info lifecycle debug@3.1.0~postuninstall: debug@3.1.0
+641 silly unbuild ms@2.0.0
+642 info lifecycle ms@2.0.0~preuninstall: ms@2.0.0
+643 info lifecycle ms@2.0.0~uninstall: ms@2.0.0
+644 verbose unbuild rmStuff ms@2.0.0 from /data/node_modules
+645 verbose unbuild rmStuff in /data/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules
+646 info lifecycle ms@2.0.0~postuninstall: ms@2.0.0
+647 silly unbuild debug@4.1.1
+648 info lifecycle debug@4.1.1~preuninstall: debug@4.1.1
+649 info lifecycle debug@4.1.1~uninstall: debug@4.1.1
+650 verbose unbuild rmStuff debug@4.1.1 from /data/node_modules
+651 verbose unbuild rmStuff in /data/node_modules/socket.io-client/node_modules
+652 info lifecycle debug@4.1.1~postuninstall: debug@4.1.1
+653 silly unbuild ms@2.1.2
+654 info lifecycle ms@2.1.2~preuninstall: ms@2.1.2
+655 info lifecycle ms@2.1.2~uninstall: ms@2.1.2
+656 verbose unbuild rmStuff ms@2.1.2 from /data/node_modules
+657 verbose unbuild rmStuff in /data/node_modules/socket.io-client/node_modules
+658 info lifecycle ms@2.1.2~postuninstall: ms@2.1.2
+659 silly unbuild socket.io-adapter@1.1.2
+660 info lifecycle socket.io-adapter@1.1.2~preuninstall: socket.io-adapter@1.1.2
+661 info lifecycle socket.io-adapter@1.1.2~uninstall: socket.io-adapter@1.1.2
+662 verbose unbuild rmStuff socket.io-adapter@1.1.2 from /data/node_modules
+663 info lifecycle socket.io-adapter@1.1.2~postuninstall: socket.io-adapter@1.1.2
+664 silly unbuild setprototypeof@1.1.1
+665 info lifecycle setprototypeof@1.1.1~preuninstall: setprototypeof@1.1.1
+666 info lifecycle setprototypeof@1.1.1~uninstall: setprototypeof@1.1.1
+667 verbose unbuild rmStuff setprototypeof@1.1.1 from /data/node_modules
+668 info lifecycle setprototypeof@1.1.1~postuninstall: setprototypeof@1.1.1
+669 silly unbuild parseuri@0.0.5
+670 info lifecycle parseuri@0.0.5~preuninstall: parseuri@0.0.5
+671 info lifecycle parseuri@0.0.5~uninstall: parseuri@0.0.5
+672 verbose unbuild rmStuff parseuri@0.0.5 from /data/node_modules
+673 info lifecycle parseuri@0.0.5~postuninstall: parseuri@0.0.5
+674 silly unbuild parseqs@0.0.5
+675 info lifecycle parseqs@0.0.5~preuninstall: parseqs@0.0.5
+676 info lifecycle parseqs@0.0.5~uninstall: parseqs@0.0.5
+677 verbose unbuild rmStuff parseqs@0.0.5 from /data/node_modules
+678 info lifecycle parseqs@0.0.5~postuninstall: parseqs@0.0.5
+679 silly unbuild on-headers@1.0.2
+680 info lifecycle on-headers@1.0.2~preuninstall: on-headers@1.0.2
+681 info lifecycle on-headers@1.0.2~uninstall: on-headers@1.0.2
+682 verbose unbuild rmStuff on-headers@1.0.2 from /data/node_modules
+683 info lifecycle on-headers@1.0.2~postuninstall: on-headers@1.0.2
+684 silly unbuild object-component@0.0.3
+685 info lifecycle object-component@0.0.3~preuninstall: object-component@0.0.3
+686 info lifecycle object-component@0.0.3~uninstall: object-component@0.0.3
+687 verbose unbuild rmStuff object-component@0.0.3 from /data/node_modules
+688 info lifecycle object-component@0.0.3~postuninstall: object-component@0.0.3
+689 silly unbuild accepts@1.3.7
+690 info lifecycle accepts@1.3.7~preuninstall: accepts@1.3.7
+691 info lifecycle accepts@1.3.7~uninstall: accepts@1.3.7
+692 verbose unbuild rmStuff accepts@1.3.7 from /data/node_modules
+693 info lifecycle accepts@1.3.7~postuninstall: accepts@1.3.7
+694 silly unbuild negotiator@0.6.2
+695 info lifecycle negotiator@0.6.2~preuninstall: negotiator@0.6.2
+696 info lifecycle negotiator@0.6.2~uninstall: negotiator@0.6.2
+697 verbose unbuild rmStuff negotiator@0.6.2 from /data/node_modules
+698 info lifecycle negotiator@0.6.2~postuninstall: negotiator@0.6.2
+699 silly unbuild debug@2.6.9
+700 info lifecycle debug@2.6.9~preuninstall: debug@2.6.9
+701 info lifecycle debug@2.6.9~uninstall: debug@2.6.9
+702 verbose unbuild rmStuff debug@2.6.9 from /data/node_modules
+703 info lifecycle debug@2.6.9~postuninstall: debug@2.6.9
+704 silly unbuild ms@2.0.0
+705 info lifecycle ms@2.0.0~preuninstall: ms@2.0.0
+706 info lifecycle ms@2.0.0~uninstall: ms@2.0.0
+707 verbose unbuild rmStuff ms@2.0.0 from /data/node_modules
+708 info lifecycle ms@2.0.0~postuninstall: ms@2.0.0
+709 silly unbuild mime-types@2.1.27
+710 info lifecycle mime-types@2.1.27~preuninstall: mime-types@2.1.27
+711 info lifecycle mime-types@2.1.27~uninstall: mime-types@2.1.27
+712 verbose unbuild rmStuff mime-types@2.1.27 from /data/node_modules
+713 info lifecycle mime-types@2.1.27~postuninstall: mime-types@2.1.27
+714 silly unbuild compressible@2.0.18
+715 info lifecycle compressible@2.0.18~preuninstall: compressible@2.0.18
+716 info lifecycle compressible@2.0.18~uninstall: compressible@2.0.18
+717 verbose unbuild rmStuff compressible@2.0.18 from /data/node_modules
+718 info lifecycle compressible@2.0.18~postuninstall: compressible@2.0.18
+719 silly unbuild mime-db@1.44.0
+720 info lifecycle mime-db@1.44.0~preuninstall: mime-db@1.44.0
+721 info lifecycle mime-db@1.44.0~uninstall: mime-db@1.44.0
+722 verbose unbuild rmStuff mime-db@1.44.0 from /data/node_modules
+723 info lifecycle mime-db@1.44.0~postuninstall: mime-db@1.44.0
+724 silly unbuild jquery@3.5.1
+725 info lifecycle jquery@3.5.1~preuninstall: jquery@3.5.1
+726 info lifecycle jquery@3.5.1~uninstall: jquery@3.5.1
+727 verbose unbuild rmStuff jquery@3.5.1 from /data/node_modules
+728 info lifecycle jquery@3.5.1~postuninstall: jquery@3.5.1
+729 silly unbuild engine.io-parser@2.2.0
+730 info lifecycle engine.io-parser@2.2.0~preuninstall: engine.io-parser@2.2.0
+731 info lifecycle engine.io-parser@2.2.0~uninstall: engine.io-parser@2.2.0
+732 verbose unbuild rmStuff engine.io-parser@2.2.0 from /data/node_modules
+733 info lifecycle engine.io-parser@2.2.0~postuninstall: engine.io-parser@2.2.0
+734 silly unbuild has-binary2@1.0.3
+735 info lifecycle has-binary2@1.0.3~preuninstall: has-binary2@1.0.3
+736 info lifecycle has-binary2@1.0.3~uninstall: has-binary2@1.0.3
+737 verbose unbuild rmStuff has-binary2@1.0.3 from /data/node_modules
+738 info lifecycle has-binary2@1.0.3~postuninstall: has-binary2@1.0.3
+739 silly unbuild isarray@2.0.1
+740 info lifecycle isarray@2.0.1~preuninstall: isarray@2.0.1
+741 info lifecycle isarray@2.0.1~uninstall: isarray@2.0.1
+742 verbose unbuild rmStuff isarray@2.0.1 from /data/node_modules
+743 info lifecycle isarray@2.0.1~postuninstall: isarray@2.0.1
+744 silly unbuild indexof@0.0.1
+745 info lifecycle indexof@0.0.1~preuninstall: indexof@0.0.1
+746 info lifecycle indexof@0.0.1~uninstall: indexof@0.0.1
+747 verbose unbuild rmStuff indexof@0.0.1 from /data/node_modules
+748 info lifecycle indexof@0.0.1~postuninstall: indexof@0.0.1
+749 silly unbuild has-cors@1.1.0
+750 info lifecycle has-cors@1.1.0~preuninstall: has-cors@1.1.0
+751 info lifecycle has-cors@1.1.0~uninstall: has-cors@1.1.0
+752 verbose unbuild rmStuff has-cors@1.1.0 from /data/node_modules
+753 info lifecycle has-cors@1.1.0~postuninstall: has-cors@1.1.0
+754 silly unbuild debug@4.1.1
+755 info lifecycle debug@4.1.1~preuninstall: debug@4.1.1
+756 info lifecycle debug@4.1.1~uninstall: debug@4.1.1
+757 verbose unbuild rmStuff debug@4.1.1 from /data/node_modules
+758 verbose unbuild rmStuff in /data/node_modules/engine.io/node_modules
+759 info lifecycle debug@4.1.1~postuninstall: debug@4.1.1
+760 silly unbuild ms@2.1.2
+761 info lifecycle ms@2.1.2~preuninstall: ms@2.1.2
+762 info lifecycle ms@2.1.2~uninstall: ms@2.1.2
+763 verbose unbuild rmStuff ms@2.1.2 from /data/node_modules
+764 verbose unbuild rmStuff in /data/node_modules/engine.io/node_modules
+765 info lifecycle ms@2.1.2~postuninstall: ms@2.1.2
+766 silly unbuild ws@6.1.4
+767 info lifecycle ws@6.1.4~preuninstall: ws@6.1.4
+768 info lifecycle ws@6.1.4~uninstall: ws@6.1.4
+769 verbose unbuild rmStuff ws@6.1.4 from /data/node_modules
+770 verbose unbuild rmStuff in /data/node_modules/engine.io-client/node_modules
+771 info lifecycle ws@6.1.4~postuninstall: ws@6.1.4
+772 silly unbuild debug@4.1.1
+773 info lifecycle debug@4.1.1~preuninstall: debug@4.1.1
+774 info lifecycle debug@4.1.1~uninstall: debug@4.1.1
+775 verbose unbuild rmStuff debug@4.1.1 from /data/node_modules
+776 verbose unbuild rmStuff in /data/node_modules/engine.io-client/node_modules
+777 info lifecycle debug@4.1.1~postuninstall: debug@4.1.1
+778 silly unbuild ms@2.1.2
+779 info lifecycle ms@2.1.2~preuninstall: ms@2.1.2
+780 info lifecycle ms@2.1.2~uninstall: ms@2.1.2
+781 verbose unbuild rmStuff ms@2.1.2 from /data/node_modules
+782 verbose unbuild rmStuff in /data/node_modules/engine.io-client/node_modules
+783 info lifecycle ms@2.1.2~postuninstall: ms@2.1.2
+784 silly unbuild component-emitter@1.3.0
+785 info lifecycle component-emitter@1.3.0~preuninstall: component-emitter@1.3.0
+786 info lifecycle component-emitter@1.3.0~uninstall: component-emitter@1.3.0
+787 verbose unbuild rmStuff component-emitter@1.3.0 from /data/node_modules
+788 verbose unbuild rmStuff in /data/node_modules/engine.io-client/node_modules
+789 info lifecycle component-emitter@1.3.0~postuninstall: component-emitter@1.3.0
+790 silly unbuild ee-first@1.1.1
+791 info lifecycle ee-first@1.1.1~preuninstall: ee-first@1.1.1
+792 info lifecycle ee-first@1.1.1~uninstall: ee-first@1.1.1
+793 verbose unbuild rmStuff ee-first@1.1.1 from /data/node_modules
+794 info lifecycle ee-first@1.1.1~postuninstall: ee-first@1.1.1
+795 silly unbuild depd@1.1.2
+796 info lifecycle depd@1.1.2~preuninstall: depd@1.1.2
+797 info lifecycle depd@1.1.2~uninstall: depd@1.1.2
+798 verbose unbuild rmStuff depd@1.1.2 from /data/node_modules
+799 info lifecycle depd@1.1.2~postuninstall: depd@1.1.2
+800 silly unbuild cookie@0.3.1
+801 info lifecycle cookie@0.3.1~preuninstall: cookie@0.3.1
+802 info lifecycle cookie@0.3.1~uninstall: cookie@0.3.1
+803 verbose unbuild rmStuff cookie@0.3.1 from /data/node_modules
+804 info lifecycle cookie@0.3.1~postuninstall: cookie@0.3.1
+805 silly unbuild component-inherit@0.0.3
+806 info lifecycle component-inherit@0.0.3~preuninstall: component-inherit@0.0.3
+807 info lifecycle component-inherit@0.0.3~uninstall: component-inherit@0.0.3
+808 verbose unbuild rmStuff component-inherit@0.0.3 from /data/node_modules
+809 info lifecycle component-inherit@0.0.3~postuninstall: component-inherit@0.0.3
+810 silly unbuild component-emitter@1.2.1
+811 info lifecycle component-emitter@1.2.1~preuninstall: component-emitter@1.2.1
+812 info lifecycle component-emitter@1.2.1~uninstall: component-emitter@1.2.1
+813 verbose unbuild rmStuff component-emitter@1.2.1 from /data/node_modules
+814 info lifecycle component-emitter@1.2.1~postuninstall: component-emitter@1.2.1
+815 silly unbuild component-bind@1.0.0
+816 info lifecycle component-bind@1.0.0~preuninstall: component-bind@1.0.0
+817 info lifecycle component-bind@1.0.0~uninstall: component-bind@1.0.0
+818 verbose unbuild rmStuff component-bind@1.0.0 from /data/node_modules
+819 info lifecycle component-bind@1.0.0~postuninstall: component-bind@1.0.0
+820 silly unbuild better-assert@1.0.2
+821 info lifecycle better-assert@1.0.2~preuninstall: better-assert@1.0.2
+822 info lifecycle better-assert@1.0.2~uninstall: better-assert@1.0.2
+823 verbose unbuild rmStuff better-assert@1.0.2 from /data/node_modules
+824 info lifecycle better-assert@1.0.2~postuninstall: better-assert@1.0.2
+825 silly unbuild callsite@1.0.0
+826 info lifecycle callsite@1.0.0~preuninstall: callsite@1.0.0
+827 info lifecycle callsite@1.0.0~uninstall: callsite@1.0.0
+828 verbose unbuild rmStuff callsite@1.0.0 from /data/node_modules
+829 info lifecycle callsite@1.0.0~postuninstall: callsite@1.0.0
+830 silly unbuild bytes@3.0.0
+831 info lifecycle bytes@3.0.0~preuninstall: bytes@3.0.0
+832 info lifecycle bytes@3.0.0~uninstall: bytes@3.0.0
+833 verbose unbuild rmStuff bytes@3.0.0 from /data/node_modules
+834 info lifecycle bytes@3.0.0~postuninstall: bytes@3.0.0
+835 silly unbuild blob@0.0.5
+836 info lifecycle blob@0.0.5~preuninstall: blob@0.0.5
+837 info lifecycle blob@0.0.5~uninstall: blob@0.0.5
+838 verbose unbuild rmStuff blob@0.0.5 from /data/node_modules
+839 info lifecycle blob@0.0.5~postuninstall: blob@0.0.5
+840 silly unbuild base64id@2.0.0
+841 info lifecycle base64id@2.0.0~preuninstall: base64id@2.0.0
+842 info lifecycle base64id@2.0.0~uninstall: base64id@2.0.0
+843 verbose unbuild rmStuff base64id@2.0.0 from /data/node_modules
+844 info lifecycle base64id@2.0.0~postuninstall: base64id@2.0.0
+845 silly unbuild base64-arraybuffer@0.1.5
+846 info lifecycle base64-arraybuffer@0.1.5~preuninstall: base64-arraybuffer@0.1.5
+847 info lifecycle base64-arraybuffer@0.1.5~uninstall: base64-arraybuffer@0.1.5
+848 verbose unbuild rmStuff base64-arraybuffer@0.1.5 from /data/node_modules
+849 info lifecycle base64-arraybuffer@0.1.5~postuninstall: base64-arraybuffer@0.1.5
+850 silly unbuild backo2@1.0.2
+851 info lifecycle backo2@1.0.2~preuninstall: backo2@1.0.2
+852 info lifecycle backo2@1.0.2~uninstall: backo2@1.0.2
+853 verbose unbuild rmStuff backo2@1.0.2 from /data/node_modules
+854 info lifecycle backo2@1.0.2~postuninstall: backo2@1.0.2
+855 silly unbuild async-limiter@1.0.1
+856 info lifecycle async-limiter@1.0.1~preuninstall: async-limiter@1.0.1
+857 info lifecycle async-limiter@1.0.1~uninstall: async-limiter@1.0.1
+858 verbose unbuild rmStuff async-limiter@1.0.1 from /data/node_modules
+859 info lifecycle async-limiter@1.0.1~postuninstall: async-limiter@1.0.1
+860 silly unbuild arraybuffer.slice@0.0.7
+861 info lifecycle arraybuffer.slice@0.0.7~preuninstall: arraybuffer.slice@0.0.7
+862 info lifecycle arraybuffer.slice@0.0.7~uninstall: arraybuffer.slice@0.0.7
+863 verbose unbuild rmStuff arraybuffer.slice@0.0.7 from /data/node_modules
+864 info lifecycle arraybuffer.slice@0.0.7~postuninstall: arraybuffer.slice@0.0.7
+865 silly unbuild after@0.8.2
+866 info lifecycle after@0.8.2~preuninstall: after@0.8.2
+867 info lifecycle after@0.8.2~uninstall: after@0.8.2
+868 verbose unbuild rmStuff after@0.8.2 from /data/node_modules
+869 info lifecycle after@0.8.2~postuninstall: after@0.8.2
+870 timing action:unbuild Completed in 53ms
+871 silly doSerial remove 266
+872 silly remove /data/node_modules/after
+873 silly remove /data/node_modules/arraybuffer.slice
+874 silly remove /data/node_modules/async-limiter
+875 silly remove /data/node_modules/backo2
+876 silly remove /data/node_modules/base64-arraybuffer
+877 silly remove /data/node_modules/base64id
+878 silly remove /data/node_modules/blob
+879 silly remove /data/node_modules/bytes
+880 silly remove /data/node_modules/callsite
+881 silly remove /data/node_modules/better-assert
+882 silly remove /data/node_modules/component-bind
+883 silly remove /data/node_modules/component-emitter
+884 silly remove /data/node_modules/component-inherit
+885 silly remove /data/node_modules/cookie
+886 silly remove /data/node_modules/depd
+887 silly remove /data/node_modules/ee-first
+888 silly remove /data/node_modules/engine.io-client/node_modules/component-emitter
+889 silly remove /data/node_modules/engine.io-client/node_modules/ms
+890 silly remove /data/node_modules/engine.io-client/node_modules/debug
+891 silly remove /data/node_modules/engine.io-client/node_modules/ws
+892 silly remove /data/node_modules/engine.io/node_modules/ms
+893 silly remove /data/node_modules/engine.io/node_modules/debug
+894 silly remove /data/node_modules/has-cors
+895 silly remove /data/node_modules/indexof
+896 silly remove /data/node_modules/isarray
+897 silly remove /data/node_modules/has-binary2
+898 silly remove /data/node_modules/engine.io-parser
+899 silly remove /data/node_modules/jquery
+900 silly remove /data/node_modules/mime-db
+901 silly remove /data/node_modules/compressible
+902 silly remove /data/node_modules/mime-types
+903 silly remove /data/node_modules/ms
+904 silly remove /data/node_modules/debug
+905 silly remove /data/node_modules/negotiator
+906 silly remove /data/node_modules/accepts
+907 silly remove /data/node_modules/object-component
+908 silly remove /data/node_modules/on-headers
+909 silly remove /data/node_modules/parseqs
+910 silly remove /data/node_modules/parseuri
+911 silly remove /data/node_modules/setprototypeof
+912 silly remove /data/node_modules/socket.io-adapter
+913 silly remove /data/node_modules/socket.io-client/node_modules/ms
+914 silly remove /data/node_modules/socket.io-client/node_modules/debug
+915 silly remove /data/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/ms
+916 silly remove /data/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/debug
+917 silly remove /data/node_modules/socket.io-client/node_modules/socket.io-parser
+918 silly remove /data/node_modules/socket.io-parser/node_modules/ms
+919 silly remove /data/node_modules/socket.io-parser/node_modules/debug
+920 silly remove /data/node_modules/socket.io-parser
+921 silly remove /data/node_modules/socket.io/node_modules/ms
+922 silly remove /data/node_modules/socket.io/node_modules/debug
+923 silly remove /data/node_modules/statuses
+924 silly remove /data/node_modules/to-array
+925 silly remove /data/node_modules/toidentifier
+926 silly remove /data/node_modules/vary
+927 silly remove /data/node_modules/ws
+928 silly remove /data/node_modules/engine.io
+929 silly remove /data/node_modules/xmlhttprequest-ssl
+930 silly remove /data/node_modules/yeast
+931 silly remove /data/node_modules/engine.io-client
+932 silly remove /data/node_modules/socket.io-client
+933 silly remove /data/node_modules/compression
+934 silly remove /data/node_modules/destroy
+935 silly remove /data/node_modules/encodeurl
+936 silly remove /data/node_modules/escape-html
+937 silly remove /data/node_modules/etag
+938 silly remove /data/node_modules/fresh
+939 silly remove /data/node_modules/gridstack
+940 silly remove /data/node_modules/http-errors
+941 silly remove /data/node_modules/on-finished
+942 silly remove /data/node_modules/parseurl
+943 silly remove /data/node_modules/range-parser
+944 silly remove /data/node_modules/socket.io
+945 timing action:remove Completed in 1667ms
+946 silly doSerial move 266
+947 silly doSerial finalize 266
+948 silly finalize /data/node_modules/bson
+949 silly finalize /data/node_modules/buffer-shims
+950 silly finalize /data/node_modules/core-util-is
+951 silly finalize /data/node_modules/es6-promise
+952 silly finalize /data/node_modules/process-nextick-args
+953 silly finalize /data/node_modules/readable-stream/node_modules/isarray
+954 silly finalize /data/node_modules/resolve-from
+955 silly finalize /data/node_modules/semver
+956 silly finalize /data/node_modules/require_optional
+957 silly finalize /data/node_modules/mongodb-core
+958 silly finalize /data/node_modules/string_decoder
+959 silly finalize /data/node_modules/util-deprecate
+960 silly finalize /data/node_modules/readable-stream
+961 silly finalize /data/node_modules/mongodb
+962 silly finalize /data/node_modules/node-red-mongodb
+963 timing action:finalize Completed in 119ms
+964 silly doParallel refresh-package-json 15
+965 silly refresh-package-json /data/node_modules/bson
+966 silly refresh-package-json /data/node_modules/buffer-shims
+967 silly refresh-package-json /data/node_modules/core-util-is
+968 silly refresh-package-json /data/node_modules/es6-promise
+969 silly refresh-package-json /data/node_modules/process-nextick-args
+970 silly refresh-package-json /data/node_modules/readable-stream/node_modules/isarray
+971 silly refresh-package-json /data/node_modules/resolve-from
+972 silly refresh-package-json /data/node_modules/semver
+973 silly refresh-package-json /data/node_modules/require_optional
+974 silly refresh-package-json /data/node_modules/mongodb-core
+975 silly refresh-package-json /data/node_modules/string_decoder
+976 silly refresh-package-json /data/node_modules/util-deprecate
+977 silly refresh-package-json /data/node_modules/readable-stream
+978 silly refresh-package-json /data/node_modules/mongodb
+979 silly refresh-package-json /data/node_modules/node-red-mongodb
+980 timing action:refresh-package-json Completed in 693ms
+981 silly doParallel preinstall 15
+982 silly preinstall bson@1.0.9
+983 info lifecycle bson@1.0.9~preinstall: bson@1.0.9
+984 silly preinstall buffer-shims@1.0.0
+985 info lifecycle buffer-shims@1.0.0~preinstall: buffer-shims@1.0.0
+986 silly preinstall core-util-is@1.0.2
+987 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+988 silly preinstall es6-promise@3.2.1
+989 info lifecycle es6-promise@3.2.1~preinstall: es6-promise@3.2.1
+990 silly preinstall process-nextick-args@1.0.7
+991 info lifecycle process-nextick-args@1.0.7~preinstall: process-nextick-args@1.0.7
+992 silly preinstall isarray@1.0.0
+993 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+994 silly preinstall resolve-from@2.0.0
+995 info lifecycle resolve-from@2.0.0~preinstall: resolve-from@2.0.0
+996 silly preinstall semver@5.7.1
+997 info lifecycle semver@5.7.1~preinstall: semver@5.7.1
+998 silly preinstall require_optional@1.0.1
+999 info lifecycle require_optional@1.0.1~preinstall: require_optional@1.0.1
+1000 silly preinstall mongodb-core@2.1.20
+1001 info lifecycle mongodb-core@2.1.20~preinstall: mongodb-core@2.1.20
+1002 silly preinstall string_decoder@1.0.3
+1003 info lifecycle string_decoder@1.0.3~preinstall: string_decoder@1.0.3
+1004 silly preinstall util-deprecate@1.0.2
+1005 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+1006 silly preinstall readable-stream@2.2.7
+1007 info lifecycle readable-stream@2.2.7~preinstall: readable-stream@2.2.7
+1008 silly preinstall mongodb@2.2.36
+1009 info lifecycle mongodb@2.2.36~preinstall: mongodb@2.2.36
+1010 silly preinstall node-red-mongodb@0.0.18
+1011 info lifecycle node-red-mongodb@0.0.18~preinstall: node-red-mongodb@0.0.18
+1012 timing action:preinstall Completed in 6ms
+1013 silly doSerial build 266
+1014 silly build bson@1.0.9
+1015 info linkStuff bson@1.0.9
+1016 silly linkStuff bson@1.0.9 has /data/node_modules as its parent node_modules
+1017 silly build buffer-shims@1.0.0
+1018 info linkStuff buffer-shims@1.0.0
+1019 silly linkStuff buffer-shims@1.0.0 has /data/node_modules as its parent node_modules
+1020 silly build core-util-is@1.0.2
+1021 info linkStuff core-util-is@1.0.2
+1022 silly linkStuff core-util-is@1.0.2 has /data/node_modules as its parent node_modules
+1023 silly build es6-promise@3.2.1
+1024 info linkStuff es6-promise@3.2.1
+1025 silly linkStuff es6-promise@3.2.1 has /data/node_modules as its parent node_modules
+1026 silly build process-nextick-args@1.0.7
+1027 info linkStuff process-nextick-args@1.0.7
+1028 silly linkStuff process-nextick-args@1.0.7 has /data/node_modules as its parent node_modules
+1029 silly build isarray@1.0.0
+1030 info linkStuff isarray@1.0.0
+1031 silly linkStuff isarray@1.0.0 has /data/node_modules/readable-stream/node_modules as its parent node_modules
+1032 silly build resolve-from@2.0.0
+1033 info linkStuff resolve-from@2.0.0
+1034 silly linkStuff resolve-from@2.0.0 has /data/node_modules as its parent node_modules
+1035 silly build semver@5.7.1
+1036 info linkStuff semver@5.7.1
+1037 silly linkStuff semver@5.7.1 has /data/node_modules as its parent node_modules
+1038 verbose linkBins [ { semver: 'bin/semver' }, '/data/node_modules/.bin', false ]
+1039 silly gently link link does not already exist { link: '/data/node_modules/.bin/semver',
+1039 silly gently link   target: '/data/node_modules/semver/bin/semver' }
+1040 timing action:build Completed in 15ms
+1041 verbose unlock done using /data/.npm/_locks/staging-accc372ed0ccb0d8.lock for /data/node_modules/.staging
+1042 timing stage:rollbackFailedOptional Completed in 206ms
+1043 timing stage:runTopLevelLifecycles Completed in 11609ms
+1044 silly saveTree node-red-project@0.0.1
+1044 silly saveTree `-- node-red-mongodb@0.0.18
+1044 silly saveTree   `-- mongodb@2.2.36
+1044 silly saveTree     +-- es6-promise@3.2.1
+1044 silly saveTree     +-- mongodb-core@2.1.20
+1044 silly saveTree     | +-- bson@1.0.9
+1044 silly saveTree     | `-- require_optional@1.0.1
+1044 silly saveTree     |   +-- resolve-from@2.0.0
+1044 silly saveTree     |   `-- semver@5.7.1
+1044 silly saveTree     `-- readable-stream@2.2.7
+1044 silly saveTree       +-- buffer-shims@1.0.0
+1044 silly saveTree       +-- core-util-is@1.0.2
+1044 silly saveTree       +-- inherits@2.0.4
+1044 silly saveTree       +-- isarray@1.0.0
+1044 silly saveTree       +-- process-nextick-args@1.0.7
+1044 silly saveTree       +-- string_decoder@1.0.3
+1044 silly saveTree       | `-- safe-buffer@5.1.2
+1044 silly saveTree       `-- util-deprecate@1.0.2
+1045 verbose stack Error: EPROTO: protocol error, symlink '../semver/bin/semver' -> '/data/node_modules/.bin/semver'
+1046 verbose cwd /data
+1047 verbose Linux 4.14.150-boot2docker
+1048 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix=\"~\"" "--production" "node-red-mongodb@0.0.18"
+1049 verbose node v10.22.0
+1050 verbose npm  v6.14.6
+1051 error code EPROTO
+1052 error syscall symlink
+1053 error path ../semver/bin/semver
+1054 error dest /data/node_modules/.bin/semver
+1055 error errno -71
+1056 error EPROTO: protocol error, symlink '../semver/bin/semver' -> '/data/node_modules/.bin/semver'
+1057 verbose exit [ -71, true ]
