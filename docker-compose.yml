@@ -2,51 +2,9 @@ version: '3'
 services:
 
     Node-Red:
-        container_name: Node-Red-Test
+        container_name: Node-Red-1
         image: nodered/node-red:latest
         ports: 
-        - "80:1880"
+        - "1880:1880"
         volumes:
         - ./data:/data
-        # network_mode: "host"
-
-
-    # djangoweb:
-    #     container_name: django-webtest 
-    #     build: ./energydata 
-    #     restart: always 
-    #     expose: 
-    #     - "8000"
-    #     volumes:
-    #     # - ./energydata:/energydata 
-    #     - ./FileCabinets:/FileCabinets
-    #     command: bash -c "gunicorn -w 8 -k 'gevent' --timeout 600 --bind 0.0.0.0:8000 energydata.wsgi"
-        
-    #     environment:
-    #     - TZ=Asia/Taipei 
-    #     # network_mode: "host" 
-    #     networks:
-    #     - nginx_network
-
-    # nginx:
-    #     container_name: nginx-webtest       
-    #     build: ./ 
-    #     restart: always 
-    #     ports: 
-    #     - "80:80" 
-    #     # volumes:         
-    #     # - ./log:/var/log/nginx
-    #     #test
-    #     # - ./iot_server/static:/static
-    #     #- ./nginx:/etc/nginx/conf.d
-    #     depends_on:
-    #     - djangoweb
-    #     environment:
-    #     - TZ=Asia/Taipei 
-    #     # network_mode: "host" 
-    #     networks:
-    #     - nginx_network
-
-networks:  # <-- and here
-    nginx_network:
-        driver: bridge
